@@ -1,0 +1,134 @@
+.hero81-header26 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero81-max-width {
+  align-self: center;
+}
+.hero81-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero81-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero81-text10 {
+  text-align: center;
+}
+.hero81-text11 {
+  text-align: center;
+}
+.hero81-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero81-button {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  text-decoration: none;
+}
+.hero81-fragment1 {
+  display: contents;
+}
+.hero81-text13 {
+  display: inline-block;
+}
+.hero81-text17 {
+  color: var(--dl-color-theme-neutral-dark);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hero81-text21 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hero81-text22 {
+  color: var(--dl-color-theme-neutral-dark);
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hero81-text23 {
+  color: var(--dl-color-theme-neutral-dark);
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+}
+.hero81-text24 {
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hero81-text25 {
+  text-transform: uppercase;
+}
+.hero81-text29 {
+  font-style: normal;
+  font-weight: 600;
+}
+.hero81-text33 {
+  font-style: normal;
+  font-weight: 600;
+}
+.hero81-text36 {
+  font-style: normal;
+  font-weight: 600;
+}
+.hero81-text37 {
+  font-style: normal;
+  font-weight: 600;
+}
+.hero81-text41 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hero81-text42 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hero81-text46 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hero81-text47 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hero81-fragment2 {
+  display: contents;
+}
+.hero81-text51 {
+  display: inline-block;
+}
+.hero81-fragment3 {
+  display: contents;
+}
+.hero81-text52 {
+  display: inline-block;
+  font-size: 48px;
+  font-style: normal;
+  font-family: "STIX Two Text";
+  font-weight: 700;
+}
+@media(max-width: 479px) {
+  .hero81-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero81-button {
+    width: 100%;
+  }
+}

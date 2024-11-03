@@ -1,0 +1,128 @@
+.contact1-container1 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact1-max-width {
+  align-self: center;
+}
+.contact1-content1 {
+  width: 100%;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.contact1-content2 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact1-content3 {
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact1-container2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact1-image1 {
+  object-fit: cover;
+}
+.contact1-text12 {
+  text-align: center;
+}
+.contact1-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact1-container4 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact1-image2 {
+  object-fit: cover;
+}
+.contact1-text14 {
+  text-align: center;
+}
+.contact1-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact1-fragment1 {
+  display: contents;
+}
+.contact1-text16 {
+  display: inline-block;
+}
+.contact1-fragment2 {
+  display: contents;
+}
+.contact1-text17 {
+  display: inline-block;
+}
+.contact1-fragment3 {
+  display: contents;
+}
+.contact1-text18 {
+  display: inline-block;
+}
+.contact1-fragment4 {
+  display: contents;
+}
+.contact1-text19 {
+  display: inline-block;
+}
+.contact1-fragment5 {
+  display: contents;
+}
+.contact1-text20 {
+  display: inline-block;
+}
+.contact1-fragment6 {
+  display: contents;
+}
+.contact1-text21 {
+  display: inline-block;
+}
+
+@media(max-width: 991px) {
+  .contact1-content1 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact1-content3 {
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .contact1-content1 {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .contact1-image1 {
+    width: 100%;
+  }
+  .contact1-image2 {
+    width: 100%;
+  }
+}
